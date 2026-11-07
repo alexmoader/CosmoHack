@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "af": {
+    "negative_random_per_chip": 1200,
+    "negative_hard_per_chip": 600,
+    "num_boost_round": 220,
+
+    "learning_rate": 0.05,
+    "num_leaves": 31
+  },
+  "bs": {
+    "samples_per_class": 100000,
+    "background_samples": 200000,
+    "num_boost_round": 120,
+    "learning_rate": 0.07,
+    "num_leaves": 31
+  }
+}

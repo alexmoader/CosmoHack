@@ -1,0 +1,53 @@
+﻿# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+secrets.*
+
+# Competition and satellite data
+/data/
+/data_source/
+/Мониторинг DATA/
+/Monitoring DATA/
+/monitoring_data/
+*.tar
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.nc
+*.grib
+
+# Trained models and generated outputs
+/weights/
+/models/
+/checkpoints/
+/prediction_cache/
+/submissions/
+/submission_variants/
+/outputs/
+/reports/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.onnx
+*.log
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
